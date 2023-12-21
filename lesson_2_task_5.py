@@ -8,4 +8,6 @@ def month_to_season(n):
             print("Лето")
         elif i == 9 or i == 10 or i == 11:
             print("Осень")
-        else: print(i)     
+           
+i = int(input(("Введите число = ")))
+month_to_season(i)   
